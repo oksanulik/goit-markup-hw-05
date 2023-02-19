@@ -570,12 +570,13 @@ img {
 .owerlay-text {
   position: absolute;
   top: 0;
-  padding: 40px 32px 164px 32px;
+  padding: 40px 32px;
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--footer-logo-color);
   background-color: var(--accent-passive-color);
+  height: 100%;
   transform: translatey(100%);
   transition-property: transform;
   transition-duration: 250ms;
